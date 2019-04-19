@@ -11,5 +11,22 @@ const myEmail = "asadikhlas@gmail.com"
 
 console.log(validator.isEmail(myEmail))
 
+yargs.command ({
+    command: 'delete',
+    describe:'delete records..',
+    builder:{
+        title:{
+            describe:'title to delete',
+            alias:'t',
+            demandOption: true,
+            type:'string',
+            default:'...'
+        },
+    },
+    handler: (argv) => {
+        console.log("deleting record", argv.title)
+    }
+})
+
 
 console.log(yargs.argv.username)
