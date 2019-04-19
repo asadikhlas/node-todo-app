@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/asadikhlas/node-todo-app#readme",
   "dependencies": {
+    "chalk": "^2.4.2",
     "validator": "^10.11.0"
   }
 }
