@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/asadikhlas/node-todo-app/issues"
   },
-  "homepage": "https://github.com/asadikhlas/node-todo-app#readme"
+  "homepage": "https://github.com/asadikhlas/node-todo-app#readme",
+  "dependencies": {
+    "validator": "^10.11.0"
+  }
 }
